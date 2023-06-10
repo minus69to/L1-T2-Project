@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: DARKCYAN;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javapart2final.TransferMovieController">
+   <children>
+      <Label layoutX="26.0" layoutY="37.0" prefHeight="40.0" prefWidth="189.0" style="-fx-background-color: BLUE;" text="Title" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="107.0" prefHeight="40.0" prefWidth="189.0" style="-fx-background-color: BLUE;" text="Production Company" textFill="#f2f0f0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="TransferMovieTitle" layoutX="251.0" layoutY="37.0" prefHeight="40.0" prefWidth="314.0" promptText="Enter Title" />
+      <TextField fx:id="TransferMovieProCom" layoutX="251.0" layoutY="107.0" prefHeight="40.0" prefWidth="314.0" promptText="Enter Name" />
+      <Button layoutX="26.0" layoutY="309.0" mnemonicParsing="false" onAction="#OnClickBackToHelloView" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: DARKGRAY;" text="Back">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="465.0" layoutY="319.0" mnemonicParsing="false" onAction="#TransferMovieSubmit" prefHeight="40.0" prefWidth="100.0" style="-fx-background-color: DARKGRAY;" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="NoTransferMovieFound" layoutX="150.0" layoutY="208.0" prefHeight="40.0" prefWidth="287.0" textFill="#fd0000">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

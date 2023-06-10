@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: DARKCYAN;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javapart2final.ProComMenuController">
+   <children>
+      <Button layoutX="136.0" layoutY="87.0" mnemonicParsing="false" onAction="#OnClickRecenetMoviesShow" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: BLUE;" text="Most Recent Movies" textFill="WHITE" AnchorPane.bottomAnchor="273.0" AnchorPane.leftAnchor="136.0" AnchorPane.rightAnchor="164.0" AnchorPane.topAnchor="87.0">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="136.0" layoutY="143.0" mnemonicParsing="false" onAction="#OnClickMaxRevMoviesShow" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: BLUE;" text="Movies with Maximum Revenue" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="136.0" layoutY="200.0" mnemonicParsing="false" onAction="#OnClickProfit" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: BLUE;" text="Total Profit" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="136.0" layoutY="336.0" mnemonicParsing="false" onAction="#OnClickBackMenu" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: DARKGRAY;" text="Back ">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label fx:id="totalProfit" layoutX="143.0" layoutY="269.0" prefHeight="40.0" prefWidth="285.0">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Button layoutX="136.0" layoutY="27.0" mnemonicParsing="false" onAction="#OnClickAllMoviesShow" prefHeight="40.0" prefWidth="300.0" style="-fx-background-color: BLUE;" text="All Movies" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
